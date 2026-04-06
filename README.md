@@ -33,62 +33,6 @@
 
 ---
 
-🛠️ Getting Started
-
-Follow these instructions to set up the project locally for development and testing.
-Prerequisites
-
-    Node.js (v16+ recommended)
-
-    Python (v3.8+ recommended)
-
-    MongoDB (Local instance or Atlas URI)
-
-1. Clone the Repository
-Bash
-
-git clone [https://github.com/heetdudani/Shopsy---E-commerce-website.git](https://github.com/heetdudani/Shopsy---E-commerce-website.git)
-cd Shopsy---E-commerce-website
-
-2. Backend Setup (FastAPI)
-
-    Ensure you are in the root directory where main.py is located.
-
-    Create a virtual environment (optional but recommended):
-    Bash
-
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-    Install the required Python dependencies:
-    Bash
-
-    pip install fastapi uvicorn pymongo
-    # Add any other dependencies your project requires
-
-    Start the FastAPI development server:
-    Bash
-
-    uvicorn main:app --reload
-
-    The backend API will run at http://localhost:8000. You can view the interactive API docs at http://localhost:8000/docs.
-
-3. Frontend Setup (React)
-
-    Open a new terminal instance and navigate to the frontend directory:
-    Bash
-
-    cd Frontend
-
-    Install the necessary Node dependencies:
-    Bash
-
-    npm install
-
-    Start the Vite development server:
-    Bash
-
-    npm run dev
 ## 📁 Project Structure
 
 ```text
@@ -100,5 +44,3 @@ Shopsy---E-commerce-website/
 ├── main.py                 # FastAPI backend application entry point
 ├── README.md               # Project documentation
 └── .gitignore              # Files and folders ignored by Git
-
-
